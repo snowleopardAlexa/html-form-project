@@ -37,7 +37,13 @@ new tags: <datalist> -->
             <input type="submit" id="submit" value="Send your meal choice">
         </form>
  
-       
+       <form id="output" oninput="result.value=parseInt(x.value)+parseInt(y.value)">
+         <fieldset>
+             <legend>Output</legend>
+             <input type="number" id="y" value="10">
+             <output name="result" for="x y"></output>
+         </fieldset>
+       </form>
 
     </section>
   </body>
