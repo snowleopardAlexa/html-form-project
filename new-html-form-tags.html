@@ -1,0 +1,44 @@
+<!--NEW FORM ATTRIBUTES IN HTML: output
+new tags: <datalist> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <title>New form elements in HTML5</title>
+</head>
+
+<body>
+    <section>
+        <form action="" method="post" id="contact">
+            <fieldset>
+                <legend>Select</legend>
+                <label for="mealChoice">Meal Choice:</label>
+                <select name="meal_choice" id="mealChoice">
+                    <option value="no_preference">No preference</option>
+                    <option value="vegetarians">Vegetarians</option>
+                    <option value="vegan">Vegan</option>
+                    <option value="pescetarians">Pescetarians</option>
+                </select>
+            </fieldset>
+            
+             <fieldset>
+                <legend>Datalist</legend>
+                 <label for="mealChoice2">Meal Choice:</label>
+                <input type="text" name="meal_choice2" id="mealChoice2" list="type_of_meal">
+                <datalist id="type_of_meal">
+                    <option value="no_preference">No Preference</option>
+                    <option value="vegetarians">Vegetarians</option>
+                    <option value="vegan">Vegan</option>
+                    <option value="pescetarians">Pescetarians</option>
+                </datalist>
+            </fieldset>
+
+            <input type="submit" id="submit" value="Send your meal choice">
+        </form>
+ 
+       
+
+    </section>
+  </body>
+</html>
