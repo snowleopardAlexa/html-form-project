@@ -1,0 +1,13 @@
+/* this overrides booking-form.css */
+/* affects labels who are sitting above the input, now they move inside input fields */
+.form-group {
+    position: relative;
+}
+
+#flightBook .form-label {
+    position: absolute;
+    top: 6px;
+    left: 20px;
+}
+
+
