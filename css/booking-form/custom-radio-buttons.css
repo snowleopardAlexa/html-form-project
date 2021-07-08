@@ -10,4 +10,23 @@
     left: 20px;
 }
 
+/* ADD CUSTOM RADIO BUTTONS */
+/* hide the original radio buttons */
+#formSection #tripType input {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+}
+
+#flightBook #tripType label {
+    display: block;
+    margin-bottom: .5em;
+    position: relative;
+    padding-top: 4px;
+    padding-left: 30px;
+    font-weight: 700;
+    color: #191a1e;
+}
+
+
 
