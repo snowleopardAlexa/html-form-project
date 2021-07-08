@@ -54,4 +54,52 @@ header {
     width: 100%;
 }
 
+input:focus, select:focus {
+    outline: solid 2px #4fa3e3;
+    box-shadow: 0 0 3px #4fa3e3;
+}
+
+
+#flightBook .form-control::-webkit-input-placeholder {
+	color: #dfe5e9;
+}
+
+#flightBook .form-control:-ms-input-placeholder {
+	color: #dfe5e9;
+}
+
+#flightBook .form-control::placeholder {
+	color: #dfe5e9;
+}
+
+.flightBook .form-control:focus {
+	background: #f9fafb;
+}
+
+#flightBook .form-label {
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 24px;
+    height: 24px;
+    font-size: 12px;
+    color: #98c9ee;
+}
+
+#flightBook .submit-btn {
+	color: #fff;
+    cursor: pointer;
+	background-color: #4fa3e3;
+	font-weight: 400;
+	height: 65px;
+	font-size: 18px;
+	border: none;
+	width: 100%;
+	border-radius: 4px;
+	text-transform: uppercase
+}
+
+
+
+
+
 
