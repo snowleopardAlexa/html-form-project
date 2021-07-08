@@ -28,5 +28,14 @@
     color: #191a1e;
 }
 
-
+#flightBook #tripType input+span {
+    position: absolute;
+    left: 2px;
+    top: 4px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 2px solid #dfe5e9;
+    border-radius: 50%;
+}
 
