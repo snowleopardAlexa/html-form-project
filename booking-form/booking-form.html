@@ -89,14 +89,14 @@
                     </div>
 
                     <div class="form-group selectNum">
-                        <label calss="stepper-label" for="numOfAdults">
+                        <label calss="stepper-label" for="numOfKids">
                             Children (0-17)
                         </label>
                         <div class="stepper">
-                            <button class="minus">
+                            <button class="minus" id="minus">
                                 <i class="fas fa-minus"></i>
                             </button>
-                            <input class="stepper-control" id="numOfAdults" type="number" value="0" max="10">
+                            <input class="stepper-control" id="numOfKids" type="number" value="0" max="10">
                             <button class="plus"><i class="fas fa-plus"></i></button>
                         </div>
                     </div>
@@ -136,8 +136,8 @@
                     </div>
            ------->
 
-
-                    <div class="form-group">
+                   <!--add additional class of 'travelClass'-->    
+                    <div class="form-group travelClass">
                         <label class="form-label" for="travClass">Travel class</label>
                         <select class="form-control" id="travClass">
                                 <option>Economy class</option>
